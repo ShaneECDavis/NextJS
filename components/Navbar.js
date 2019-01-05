@@ -5,10 +5,9 @@ const Navbar = ()=> (
 
   <Nav>
     <ul>
-      <li><Link href="/"><button>Home</button></Link></li>
-      <li><Link href="/about"><button>About</button></Link></li>
+      <li><Link href="/"><Button>Home</Button></Link></li>
+      <li><Link href="/about"><Button>About</Button></Link></li>
     </ul>
-   
   </Nav>
 )
 
@@ -16,22 +15,29 @@ export default Navbar
 
 
 const Nav = styled.div`
+   
    ul{
         background: #bbb;
+        margin: 0; 
         color: #2f2f;
         list-style: none;
+        height: 2rem;
         display: flex;
+        justify-content: flex-end;
+      
    }
 
       ul li {
         background: #2f2f;
-        font-size: 18px;
-        margin-right: 20px;
+        font-size: 1.8rem;
+        margin-right: 2rem;
+        padding: 0;
+        display: flex;
+        align-items: center;
       }
-      ul li a {
-        color: #2f2f;
-        text-decoration: none;
-      }
+     
       
-   
+`
+const Button = styled.button`
+      background-color: #fff;
 `

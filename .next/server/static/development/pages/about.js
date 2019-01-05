@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -139,7 +139,7 @@ var Navbar = function Navbar() {
       lineNumber: 8
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Button, {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8
@@ -158,7 +158,7 @@ var Navbar = function Navbar() {
       lineNumber: 9
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Button, {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
@@ -171,7 +171,11 @@ var Navbar = function Navbar() {
 var Nav = styled_components__WEBPACK_IMPORTED_MODULE_2___default.a.div.withConfig({
   displayName: "Navbar__Nav",
   componentId: "sc-1yflgx1-0"
-})(["ul{background:#bbb;color:#2f2f;list-style:none;display:flex;}ul li{background:#2f2f;font-size:18px;margin-right:20px;}ul li a{color:#2f2f;text-decoration:none;}"]);
+})(["ul{background:#bbb;margin:0;color:#2f2f;list-style:none;height:2rem;display:flex;justify-content:flex-end;}ul li{background:#2f2f;font-size:1.8rem;margin-right:2rem;padding:0;display:flex;align-items:center;}"]);
+var Button = styled_components__WEBPACK_IMPORTED_MODULE_2___default.a.button.withConfig({
+  displayName: "Navbar__Button",
+  componentId: "sc-1yflgx1-1"
+})(["background-color:#fff;"]);
 
 /***/ }),
 
@@ -223,7 +227,7 @@ var About = function About() {
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!******************************!*\
   !*** multi ./pages/about.js ***!
   \******************************/

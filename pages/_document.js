@@ -1,6 +1,7 @@
 import Document, { Head, Main, NextScript } from 'next/document';
 // Import styled components ServerStyleSheet
 import { ServerStyleSheet } from 'styled-components';
+import styled from 'styled-components'
 
 export default class MyDocument extends Document {
   static getInitialProps({ renderPage }) {
@@ -21,7 +22,7 @@ export default class MyDocument extends Document {
 
   render() {
     return (
-      <html>
+      <Html>
         <Head>
           <title>My page</title>
           {/* Step 5: Output the styles in the head  */}
@@ -31,7 +32,14 @@ export default class MyDocument extends Document {
           <Main />
           <NextScript />
         </body>
-      </html>
+      </Html>
     );
   }
 }
+
+
+const Html = styled.body`
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%; 
+`

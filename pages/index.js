@@ -1,10 +1,12 @@
 
-import Navbar from '../components/Navbar'
+import  { Navbar, Jumbotron, ServicesSection } from '../components/'
 
 const Index = () => (
   <div>
-    <Navbar />
-    <h1>Welcome </h1>
+    <Navbar/>
+
+    <Jumbotron/>
+    <ServicesSection/>
   </div>
 )
 
