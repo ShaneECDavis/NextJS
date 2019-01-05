@@ -16,7 +16,6 @@ const ServicesSection = () => (
 
 export default ServicesSection
 
-
 const Section = styled.div`
     height: 30rem;
     background-color: green;

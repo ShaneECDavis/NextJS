@@ -1,5 +1,5 @@
 
-import  { Navbar, Jumbotron, ServicesSection } from '../components/'
+import  { Navbar, Jumbotron, ServicesSection, ContactSection, Footer } from '../components/'
 
 const Index = () => (
   <div>
@@ -7,6 +7,8 @@ const Index = () => (
 
     <Jumbotron/>
     <ServicesSection/>
+    <ContactSection/>
+    <Footer />
   </div>
 )
 

@@ -1,3 +1,5 @@
 export {default as Navbar} from './Navbar'
 export {default as Jumbotron} from './Jumbotron'
 export {default as ServicesSection} from './ServicesSection'
+export {default as ContactSection} from './ContactSection'
+export {default as Footer}  from './Footer'
