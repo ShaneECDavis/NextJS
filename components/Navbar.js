@@ -1,33 +1,37 @@
 import Link from 'next/link'
+import styled from 'styled-components'
 
 const Navbar = ()=> (
 
-  <div>
+  <Nav>
     <ul>
       <li><Link href="/"><button>Home</button></Link></li>
       <li><Link href="/about"><button>About</button></Link></li>
     </ul>
-    <style jsx>{
-   `
-      ul {
-        background: #333;
-        color: #fff;
+   
+  </Nav>
+)
+
+export default Navbar
+
+
+const Nav = styled.div`
+   ul{
+        background: #bbb;
+        color: #2f2f;
         list-style: none;
         display: flex;
-      }
+   }
 
       ul li {
+        background: #2f2f;
         font-size: 18px;
         margin-right: 20px;
       }
       ul li a {
-        color: #fff;
+        color: #2f2f;
         text-decoration: none;
       }
-   `
-    }
-    </style>
-  </div>
-)
-
-export default Navbar
+      
+   
+`

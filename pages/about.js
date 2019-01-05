@@ -4,7 +4,7 @@ const About = () => (
   <div>
    <Navbar />
     <h1>About</h1>
-    <p>Application to view Bitcoin prices</p>
+    <p>Put stuff here..</p>
   </div>
 )
 
