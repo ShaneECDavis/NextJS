@@ -1,0 +1,1 @@
+Using NextJS to make a blank static site. 
