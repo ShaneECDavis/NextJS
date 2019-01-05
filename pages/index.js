@@ -4,7 +4,7 @@ import Navbar from '../components/Navbar'
 const Index = () => (
   <div>
     <Navbar />
-    <h1>Welcome to BitzPrice</h1>
+    <h1>Welcome </h1>
   </div>
 )
 
