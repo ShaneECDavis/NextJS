@@ -93,10 +93,10 @@ module.exports =
 /************************************************************************/
 /******/ ({
 
-/***/ "./components/ContactSection.js":
-/*!**************************************!*\
-  !*** ./components/ContactSection.js ***!
-  \**************************************/
+/***/ "./components/about/AboutMain.js":
+/*!***************************************!*\
+  !*** ./components/about/AboutMain.js ***!
+  \***************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -106,7 +106,53 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "styled-components");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/Users/PudgyTech/Desktop/SideGigs/nextJS/components/ContactSection.js";
+var _jsxFileName = "/Users/PudgyTech/Desktop/SideGigs/nextJS/components/about/AboutMain.js";
+
+
+
+
+var AboutMe = function AboutMe() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Section, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Photo, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (AboutMe);
+var Section = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
+  displayName: "AboutMain__Section",
+  componentId: "vschqw-0"
+})(["height:70rem;width:100%;background-color:red;display:flex;"]);
+var Photo = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
+  displayName: "AboutMain__Photo",
+  componentId: "vschqw-1"
+})(["height:22rem;width:18rem;border-radius:40px;background-color:white;margin-top:3rem;margin-left:5rem;"]);
+
+/***/ }),
+
+/***/ "./components/home/ContactSection.js":
+/*!*******************************************!*\
+  !*** ./components/home/ContactSection.js ***!
+  \*******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "styled-components");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "/Users/PudgyTech/Desktop/SideGigs/nextJS/components/home/ContactSection.js";
 
 
 
@@ -142,23 +188,23 @@ var ContactSection = function ContactSection() {
 /* harmony default export */ __webpack_exports__["default"] = (ContactSection);
 var Section = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
   displayName: "ContactSection__Section",
-  componentId: "ryhjys-0"
+  componentId: "sc-154kqt6-0"
 })(["height:30rem;background-color:magenta;display:flex;flex-direction:column;align-items:center;"]);
 var FormDiv = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
   displayName: "ContactSection__FormDiv",
-  componentId: "ryhjys-1"
+  componentId: "sc-154kqt6-1"
 })(["margin:auto 0;height:18rem;width:90%;display:flex;background-color:yellow;align-items:center;justify-content:space-evenly;"]);
 var FormHouse = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
   displayName: "ContactSection__FormHouse",
-  componentId: "ryhjys-2"
+  componentId: "sc-154kqt6-2"
 })(["height:90%;width:40%;background-color:purple;"]);
 
 /***/ }),
 
-/***/ "./components/Footer.js":
-/*!******************************!*\
-  !*** ./components/Footer.js ***!
-  \******************************/
+/***/ "./components/home/Footer.js":
+/*!***********************************!*\
+  !*** ./components/home/Footer.js ***!
+  \***********************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -168,7 +214,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "styled-components");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/Users/PudgyTech/Desktop/SideGigs/nextJS/components/Footer.js";
+var _jsxFileName = "/Users/PudgyTech/Desktop/SideGigs/nextJS/components/home/Footer.js";
 
 
 
@@ -186,15 +232,15 @@ var Footer = function Footer() {
 /* harmony default export */ __webpack_exports__["default"] = (Footer);
 var FooterDiv = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
   displayName: "Footer__FooterDiv",
-  componentId: "sc-1l78q9x-0"
+  componentId: "l91mvk-0"
 })(["height:5rem;background-color:violet;"]);
 
 /***/ }),
 
-/***/ "./components/Jumbotron.js":
-/*!*********************************!*\
-  !*** ./components/Jumbotron.js ***!
-  \*********************************/
+/***/ "./components/home/Jumbotron.js":
+/*!**************************************!*\
+  !*** ./components/home/Jumbotron.js ***!
+  \**************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -204,7 +250,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "styled-components");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/Users/PudgyTech/Desktop/SideGigs/nextJS/components/Jumbotron.js";
+var _jsxFileName = "/Users/PudgyTech/Desktop/SideGigs/nextJS/components/home/Jumbotron.js";
 
 
 
@@ -235,23 +281,23 @@ var Jumbotron = function Jumbotron(props) {
 /* harmony default export */ __webpack_exports__["default"] = (Jumbotron);
 var Jumbo = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
   displayName: "Jumbotron__Jumbo",
-  componentId: "sc-1ifkba9-0"
+  componentId: "sc-1ywgkg9-0"
 })(["height:30rem;width:100%;background-color:red;color:white;align-items:center;justify-content:center;display:flex;flex-direction:column;"]);
 var Title = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.h1.withConfig({
   displayName: "Jumbotron__Title",
-  componentId: "sc-1ifkba9-1"
+  componentId: "sc-1ywgkg9-1"
 })(["color:#fff;width:20rem;text-align:center;font-size:3rem;"]);
 var Button = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.button.withConfig({
   displayName: "Jumbotron__Button",
-  componentId: "sc-1ifkba9-2"
+  componentId: "sc-1ywgkg9-2"
 })(["width:10rem;background-color:#aaaa"]);
 
 /***/ }),
 
-/***/ "./components/Navbar.js":
-/*!******************************!*\
-  !*** ./components/Navbar.js ***!
-  \******************************/
+/***/ "./components/home/Navbar.js":
+/*!***********************************!*\
+  !*** ./components/home/Navbar.js ***!
+  \***********************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -263,7 +309,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! styled-components */ "styled-components");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "/Users/PudgyTech/Desktop/SideGigs/nextJS/components/Navbar.js";
+var _jsxFileName = "/Users/PudgyTech/Desktop/SideGigs/nextJS/components/home/Navbar.js";
 
 
 
@@ -325,19 +371,19 @@ var Navbar = function Navbar() {
 /* harmony default export */ __webpack_exports__["default"] = (Navbar);
 var Nav = styled_components__WEBPACK_IMPORTED_MODULE_2___default.a.div.withConfig({
   displayName: "Navbar__Nav",
-  componentId: "sc-1yflgx1-0"
+  componentId: "sc-1q5k3s4-0"
 })(["ul{background:#bbb;margin:0;color:#2f2f;list-style:none;height:2rem;display:flex;justify-content:flex-end;}ul li{background:#2f2f;font-size:1.8rem;margin-right:2rem;padding:0;display:flex;align-items:center;}"]);
 var Button = styled_components__WEBPACK_IMPORTED_MODULE_2___default.a.button.withConfig({
   displayName: "Navbar__Button",
-  componentId: "sc-1yflgx1-1"
+  componentId: "sc-1q5k3s4-1"
 })(["background-color:#fff;"]);
 
 /***/ }),
 
-/***/ "./components/ServicesSection.js":
-/*!***************************************!*\
-  !*** ./components/ServicesSection.js ***!
-  \***************************************/
+/***/ "./components/home/ServicesSection.js":
+/*!********************************************!*\
+  !*** ./components/home/ServicesSection.js ***!
+  \********************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -347,7 +393,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "styled-components");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/Users/PudgyTech/Desktop/SideGigs/nextJS/components/ServicesSection.js";
+var _jsxFileName = "/Users/PudgyTech/Desktop/SideGigs/nextJS/components/home/ServicesSection.js";
 
 
 
@@ -389,19 +435,19 @@ var ServicesSection = function ServicesSection() {
 /* harmony default export */ __webpack_exports__["default"] = (ServicesSection);
 var Section = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
   displayName: "ServicesSection__Section",
-  componentId: "d1qcem-0"
+  componentId: "b2dtod-0"
 })(["height:30rem;background-color:green;display:flex;flex-direction:column;align-items:center;"]);
 var Description = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.h1.withConfig({
   displayName: "ServicesSection__Description",
-  componentId: "d1qcem-1"
+  componentId: "b2dtod-1"
 })(["height:7rem;width:90%;background-color:blue;margin-top:2rem;"]);
 var BriefSection = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
   displayName: "ServicesSection__BriefSection",
-  componentId: "d1qcem-2"
+  componentId: "b2dtod-2"
 })(["height:18rem;width:90%;display:flex;background-color:yellow;align-items:center;justify-content:space-evenly;"]);
 var ListHouse = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.ul.withConfig({
   displayName: "ServicesSection__ListHouse",
-  componentId: "d1qcem-3"
+  componentId: "b2dtod-3"
 })(["height:90%;width:40%;background-color:purple;"]);
 
 /***/ }),
@@ -410,25 +456,29 @@ var ListHouse = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.ul.with
 /*!*****************************!*\
   !*** ./components/index.js ***!
   \*****************************/
-/*! exports provided: Navbar, Jumbotron, ServicesSection, ContactSection, Footer */
+/*! exports provided: Navbar, Jumbotron, ServicesSection, ContactSection, Footer, AboutMe */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _Navbar__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Navbar */ "./components/Navbar.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Navbar", function() { return _Navbar__WEBPACK_IMPORTED_MODULE_0__["default"]; });
+/* harmony import */ var _home_Navbar__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./home/Navbar */ "./components/home/Navbar.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Navbar", function() { return _home_Navbar__WEBPACK_IMPORTED_MODULE_0__["default"]; });
 
-/* harmony import */ var _Jumbotron__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Jumbotron */ "./components/Jumbotron.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Jumbotron", function() { return _Jumbotron__WEBPACK_IMPORTED_MODULE_1__["default"]; });
+/* harmony import */ var _home_Jumbotron__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./home/Jumbotron */ "./components/home/Jumbotron.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Jumbotron", function() { return _home_Jumbotron__WEBPACK_IMPORTED_MODULE_1__["default"]; });
 
-/* harmony import */ var _ServicesSection__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./ServicesSection */ "./components/ServicesSection.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ServicesSection", function() { return _ServicesSection__WEBPACK_IMPORTED_MODULE_2__["default"]; });
+/* harmony import */ var _home_ServicesSection__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./home/ServicesSection */ "./components/home/ServicesSection.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ServicesSection", function() { return _home_ServicesSection__WEBPACK_IMPORTED_MODULE_2__["default"]; });
 
-/* harmony import */ var _ContactSection__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./ContactSection */ "./components/ContactSection.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ContactSection", function() { return _ContactSection__WEBPACK_IMPORTED_MODULE_3__["default"]; });
+/* harmony import */ var _home_ContactSection__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./home/ContactSection */ "./components/home/ContactSection.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ContactSection", function() { return _home_ContactSection__WEBPACK_IMPORTED_MODULE_3__["default"]; });
 
-/* harmony import */ var _Footer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Footer */ "./components/Footer.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Footer", function() { return _Footer__WEBPACK_IMPORTED_MODULE_4__["default"]; });
+/* harmony import */ var _home_Footer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./home/Footer */ "./components/home/Footer.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Footer", function() { return _home_Footer__WEBPACK_IMPORTED_MODULE_4__["default"]; });
+
+/* harmony import */ var _about_AboutMain__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./about/AboutMain */ "./components/about/AboutMain.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "AboutMe", function() { return _about_AboutMain__WEBPACK_IMPORTED_MODULE_5__["default"]; });
+
 
 
 

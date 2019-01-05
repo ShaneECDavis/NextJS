@@ -155,7 +155,7 @@ function (_Document) {
   _createClass(MyDocument, [{
     key: "render",
     value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Html, {
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("html", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 25
@@ -173,7 +173,7 @@ function (_Document) {
           lineNumber: 27
         },
         __self: this
-      }, "My page"), this.props.styleTags), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("body", {
+      }, "My page"), this.props.styleTags), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Body, {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 31
@@ -224,8 +224,8 @@ function (_Document) {
 }(next_document__WEBPACK_IMPORTED_MODULE_1___default.a);
 
 
-var Html = styled_components__WEBPACK_IMPORTED_MODULE_2___default.a.body.withConfig({
-  displayName: "_document__Html",
+var Body = styled_components__WEBPACK_IMPORTED_MODULE_2___default.a.body.withConfig({
+  displayName: "_document__Body",
   componentId: "sc-1vz26ac-0"
 })(["margin:0;padding:0;font-size:62.5%;"]);
 

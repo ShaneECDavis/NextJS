@@ -22,23 +22,23 @@ export default class MyDocument extends Document {
 
   render() {
     return (
-      <Html>
+      <html>
         <Head>
           <title>My page</title>
           {/* Step 5: Output the styles in the head  */}
           {this.props.styleTags}
         </Head>
-        <body>
+        <Body>
           <Main />
           <NextScript />
-        </body>
-      </Html>
+        </Body>
+      </html>
     );
   }
 }
 
 
-const Html = styled.body`
+const Body = styled.body`
   margin: 0;
   padding: 0;
   font-size: 62.5%; 

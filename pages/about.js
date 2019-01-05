@@ -1,10 +1,9 @@
-import Navbar from '../components/Navbar'
+import {Navbar, AboutMe} from '../components/';
 
 const About = () => (
   <div>
    <Navbar />
-    <h1>About</h1>
-    <p>Put stuff here..</p>
+    <AboutMe />
   </div>
 )
 
